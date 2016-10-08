@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium Meetup">
+    <parameter name="language" value="en"/>
+    <test name="Article Tests">
+        <parameter name="appURL" value="https://semeetup.wordpress.com/2016/08/"/>
+        <classes>
+            <class name="com.tests.ContentTests">
+
+                <methods>
+                    <include name="logInUserSuccessfullyFromArticle"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+
+</suite>

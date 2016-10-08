@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Meetup" duration-ms="16589" started-at="2016-10-01T18:55:41Z" finished-at="2016-10-01T18:55:58Z">
+    <groups>
+    </groups>
+    <test name="Article Tests" duration-ms="16589" started-at="2016-10-01T18:55:41Z" finished-at="2016-10-01T18:55:58Z">
+      <class name="com.tests.ContentTests">
+        <test-method status="PASS" signature="initBaseTest(java.lang.String)[pri:0, instance:com.tests.ContentTests@4411d970]" name="initBaseTest" is-config="true" duration-ms="6857" started-at="2016-10-01T12:55:41Z" finished-at="2016-10-01T12:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://semeetup.wordpress.com/2016/08/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBaseTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.ContentTests@4411d970]" name="setUp" is-config="true" duration-ms="34" started-at="2016-10-01T12:55:48Z" finished-at="2016-10-01T12:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInUserSuccessfullyFromArticle()[pri:0, instance:com.tests.ContentTests@4411d970]" name="logInUserSuccessfullyFromArticle" duration-ms="9533" started-at="2016-10-01T12:55:48Z" finished-at="2016-10-01T12:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUserSuccessfullyFromArticle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.ContentTests@4411d970]" name="tearDown" is-config="true" duration-ms="145" started-at="2016-10-01T12:55:58Z" finished-at="2016-10-01T12:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.ContentTests -->
+    </test> <!-- Article Tests -->
+  </suite> <!-- Selenium Meetup -->
+</testng-results>

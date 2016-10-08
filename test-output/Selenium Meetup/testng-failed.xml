@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Meetup]">
+  <parameter name="language" value="en"/>
+  <parameter name="appURL" value="http://semeetup.wordpress.com"/>
+  <test name="Login Test">
+    <parameter name="appURL" value="http://semeetup.wordpress.com"/>
+    <classes>
+      <class name="com.tests.LoginTests">
+        <methods>
+          <include name="logInUser"/>
+        </methods>
+      </class> <!-- com.tests.LoginTests -->
+    </classes>
+  </test> <!-- Login Test -->
+</suite> <!-- Failed suite [Selenium Meetup] -->

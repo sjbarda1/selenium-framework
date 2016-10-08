@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Selenium Meetup" duration-ms="36941" started-at="2016-10-04T23:44:36Z" finished-at="2016-10-04T23:45:13Z">
+    <groups>
+    </groups>
+    <test name="Login Success" duration-ms="26154" started-at="2016-10-04T23:44:36Z" finished-at="2016-10-04T23:45:02Z">
+      <class name="com.tests.LoginTests">
+        <test-method status="PASS" signature="initBaseTest(java.lang.String)[pri:0, instance:com.tests.LoginTests@67b64c45]" name="initBaseTest" is-config="true" duration-ms="16734" started-at="2016-10-04T17:44:36Z" finished-at="2016-10-04T17:44:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://semeetup.wordpress.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBaseTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginTests@67b64c45]" name="setUp" is-config="true" duration-ms="216" started-at="2016-10-04T17:44:53Z" finished-at="2016-10-04T17:44:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInUserSuccessfully()[pri:0, instance:com.tests.LoginTests@67b64c45]" name="logInUserSuccessfully" duration-ms="9021" started-at="2016-10-04T17:44:53Z" finished-at="2016-10-04T17:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUserSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTests@67b64c45]" name="tearDown" is-config="true" duration-ms="126" started-at="2016-10-04T17:45:02Z" finished-at="2016-10-04T17:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTests -->
+    </test> <!-- Login Success -->
+    <test name="Login Failure" duration-ms="10436" started-at="2016-10-04T23:45:03Z" finished-at="2016-10-04T23:45:13Z">
+      <class name="com.tests.LoginTests">
+        <test-method status="PASS" signature="initBaseTest(java.lang.String)[pri:0, instance:com.tests.LoginTests@17550481]" name="initBaseTest" is-config="true" duration-ms="7237" started-at="2016-10-04T17:45:03Z" finished-at="2016-10-04T17:45:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://semeetup.wordpress.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBaseTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tests.LoginTests@17550481]" name="setUp" is-config="true" duration-ms="1" started-at="2016-10-04T17:45:10Z" finished-at="2016-10-04T17:45:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logInUserError()[pri:0, instance:com.tests.LoginTests@17550481]" name="logInUserError" duration-ms="3109" started-at="2016-10-04T17:45:10Z" finished-at="2016-10-04T17:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInUserError -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.LoginTests@17550481]" name="tearDown" is-config="true" duration-ms="89" started-at="2016-10-04T17:45:13Z" finished-at="2016-10-04T17:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.LoginTests -->
+    </test> <!-- Login Failure -->
+  </suite> <!-- Selenium Meetup -->
+</testng-results>
